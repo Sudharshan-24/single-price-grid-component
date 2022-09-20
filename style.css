@@ -16,12 +16,19 @@ body {
     font-family: 'Karla', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    /* updated from frontend mentor */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: auto;
+    flex-direction: column;
 }
 
 .box {
     width: 630px;
     height: auto;
-    margin: 100px auto;
+    /* margin: 100px auto; */
+    margin-top: 50px;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     overflow: hidden;
