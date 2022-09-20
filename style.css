@@ -1,0 +1,142 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-gray);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.box {
+    background-color: white;
+    width: 650px;
+    height: auto;
+    margin: 140px auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.community {
+    padding: 35px 40px 20px;
+    color: var(--grayish-blue);
+}
+
+.guarantee {
+    padding-left: 40px;
+    color: var(--bright-yellow);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.description {
+    padding: 10px 40px;
+    color: var(--grayish-blue);
+    width: 100%;
+}
+
+.flexbox-container {
+    width: 100%;
+    margin-top: 30px;
+    ;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container {
+    background-color: var(--cyan);
+    padding: 30px 40px 40px;
+    width: 50%;
+    ;
+}
+
+.subscription {
+    color: white;
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dollar-per-month {
+    padding-bottom: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dollar {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+.per-month {
+    color: var(--light-gray);
+    opacity: 0.7;
+    margin-left: 15px;
+}
+
+.full-access {
+    color: white;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.button {
+    margin-top: 25px;
+}
+
+.btn {
+    color: white;
+    background-color: var(--bright-yellow);
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    width: 92%;
+    padding: 15px;
+}
+
+.right-container {
+    background-color: var(--grayish-blue);
+    padding: 30px 40px 40px;
+    width: 50%;
+}
+
+.why-us {
+    color: white;
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.offers {
+    color: var(--light-gray);
+    opacity: 0.7;
+    font-size: 13px;
+    text-align: left;
+}
+
+.attribution {
+    font-size: 18px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
